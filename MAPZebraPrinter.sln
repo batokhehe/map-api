@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAPZebraPrinter", "MAPZebraPrinter.csproj", "{FBE70EAB-B764-43F7-9828-E818752EAEAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE70EAB-B764-43F7-9828-E818752EAEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE70EAB-B764-43F7-9828-E818752EAEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE70EAB-B764-43F7-9828-E818752EAEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE70EAB-B764-43F7-9828-E818752EAEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92F2A430-E497-4538-9B88-63FF15F3D1FF}
+	EndGlobalSection
+EndGlobal
