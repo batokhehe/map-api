@@ -15,6 +15,5 @@ namespace MAPZebraPrinter.Models
         public string? ItemGroup { get; set; }
         public string? FreeField4 { get; set; }
         public string? Company { get; set; }
-        public string? Barcode { get; set; }
     }
 }

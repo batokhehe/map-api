@@ -50,7 +50,7 @@ namespace MAPZebraPrinter.Controllers
         }
 
         // Get single item by code
-        [HttpGet("{code}")]
+        /*[HttpGet("{code}")]
         public async Task<ActionResult<Object>> GetProductRSFByCode(string code)
         {
             
@@ -59,7 +59,6 @@ namespace MAPZebraPrinter.Controllers
                 join a in _context.AliasNumber on p.ItemNumber equals a.ItemNumber
                 join sys in _context.SystemTable on p.ItemGroup equals sys.KeyValue into sysGroup
                 from sys in sysGroup.DefaultIfEmpty()
-                where a.AliasNumber1 == code
                 select new
                 {
                     p.ItemNumber,
@@ -97,6 +96,6 @@ namespace MAPZebraPrinter.Controllers
 
             return Ok(result);
             
-        }
+        }*/
     }
 }
