@@ -1,19 +1,13 @@
-﻿namespace MAPZebraPrinter.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MAPZebraPrinter.Models
 {
     public class AliasNumber
     {
         public string? ItemNumber { get; set; }
-        private string? aliasNumber;
 
-        public string? GetAliasNumber()
-        {
-            return aliasNumber;
-        }
-
-        public void SetAliasNumber(string? value)
-        {
-            aliasNumber = value;
-        }
+        [Column("AliasNumber")]
+        public string? AliasCode { get; set; }
 
         public string? Season { get; set; }
         public string? Company { get; set; }
